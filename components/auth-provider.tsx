@@ -1,7 +1,8 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState } from 'react';
-import { createClient } from '@/lib/supabase/client';
+import { createClient  } from '@/lib/supabase/client';
+import { Session } from '@supabase/supabase-js';
 
 const AuthContext = createContext({});
 
@@ -10,7 +11,7 @@ export const useAuth = () => {
 };
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
-  const [session, setSession] = useState(null);
+  const [session, setSession] = useState<Session | null>(null);;
   const supabase = createClient();
 
   useEffect(() => {
