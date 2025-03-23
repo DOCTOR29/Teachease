@@ -10,7 +10,7 @@ export default function Home() {
         <div className="flex flex-col items-center text-center space-y-8">
           <GraduationCap className="h-16 w-16 text-primary" />
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-            Welcome to EduDash
+            Welcome to Teachease
           </h1>
           <p className="max-w-[600px] text-muted-foreground md:text-xl">
             Your all-in-one platform for lesson planning, assessment creation, and

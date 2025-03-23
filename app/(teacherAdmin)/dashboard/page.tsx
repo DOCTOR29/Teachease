@@ -14,7 +14,7 @@ export default function DashboardPage() {
           Teacher Dashboard
         </h2>
         <p className="text-muted-foreground">
-          Here's an overview of your teaching resources
+          Here &apos;s an overview of your teaching resources
         </p>
       </div>
 
